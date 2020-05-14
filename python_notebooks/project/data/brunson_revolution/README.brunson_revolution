@@ -1,0 +1,70 @@
+American Revolution network, part of the Koblenz Network Collection
+===========================================================================
+
+This directory contains the TSV and related files of the brunson_revolution network: This bipartite network contains membership information of 136 people in 5 organisations dating back to the time before the American Revolution. The list includes well-known people such as the American activist Paul Revere. Left nodes represent persons and right nodes represent organisations. An edge between a person and an organization shows that the person was a member of the organisation.
+
+
+More information about the network is provided here: 
+http://konect.cc/networks/brunson_revolution
+
+Files: 
+    meta.brunson_revolution -- Metadata about the network 
+    out.brunson_revolution -- The adjacency matrix of the network in whitespace-separated values format, with one edge per line
+      The meaning of the columns in out.brunson_revolution are: 
+        First column: ID of from node 
+        Second column: ID of to node
+        Third column (if present): weight or multiplicity of edge
+        Fourth column (if present):  timestamp of edges Unix time
+
+
+Use the following References for citation:
+
+@MISC{konect:2017:brunson_revolution,
+    title = {American Revolution network dataset -- {KONECT}},
+    month = oct,
+    year = {2017},
+    url = {http://konect.cc/networks/brunson_revolution}
+}
+
+@book{konect:fischer,
+	title = {{Paul} {Revere's} Ride},
+	author = {Fischer, David Hackett},
+	series = {Oxford paperbacks},
+	year = {1995},
+	publisher = {Oxford Univ. Press}
+}
+
+@book{konect:fischer,
+	title = {{Paul} {Revere's} Ride},
+	author = {Fischer, David Hackett},
+	series = {Oxford paperbacks},
+	year = {1995},
+	publisher = {Oxford Univ. Press}
+}
+
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+
